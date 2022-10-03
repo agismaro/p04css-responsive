@@ -1,0 +1,91 @@
+.judul {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: grey;
+}
+
+.guide {
+  font-weight: bold;
+  font-size: 20px;
+  color: grey;
+}
+
+.agismr {
+  width: 100%;
+  margin: auto;
+  background-color: burlywood;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.firmilir {
+  font-size: 27px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: grey;
+}
+
+.masukin,
+select {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  width: 30%;
+  background-color: grey;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 2px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .input-pengguna,
+  select {
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  button {
+    padding: 8px 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    font-size: 10px;
+  }
+}
+
+.agismaro {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  max-width: 640px;
+}
+ol li {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  color: grey;
+}
+input[type="file"] {
+  background-color: gray;
+  border: none;
+  font-size: 12px;
+}
